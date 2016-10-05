@@ -162,7 +162,7 @@ python:
 	$(PYTHON) setup.py build
 
 install:
-	$(PYTHON) setup.py install
+	$(PYTHON) setup.py install --prefix ~/Library/Python/2.7
 
 sdist: clean docs
 	$(PYTHON) setup.py sdist
